@@ -1,0 +1,30 @@
+[log]
+level = "debug"
+
+[storage]
+type = "redis"
+
+[storage.config]
+hostname = "192.168.30.100"
+port = 6379
+db = 0
+interval = 3
+password = "redis"
+buffsize = 10
+
+[[templates]]
+src        = "./example/template/nginx.tpl"
+dst        = "/usr/local/nginx/conf/vhost/git.conf"
+keys       = [
+    "vm.s1.nginx.domain.git.server_name",
+    "vm.s1.nginx.domain.git.port",
+    "vm.s1.nginx.domain.git.root"
+]
+reload_cmd = "systemctl restart nginx"
+
+[[templates]]
+src        = "./example/template/git.tpl"
+dst        = "/data/wwwroot/git/index.html"
+keys       = [
+    "vm.s1.site.git.welcome"
+]
