@@ -1,3 +1,5 @@
+github.com/BurntSushi/toml v0.3.1 h1:WXkYYl6Yr3qBf1K79EBnL4mak0OimBfB0XUf9Vl28OQ=
+github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/appconf/engine v0.0.0-20200608023218-171ba95742f2 h1:wyl6h6C4LOqNc6WMumyNORUM/a0gscRuUnGlCcLarK0=
 github.com/appconf/engine v0.0.0-20200608023218-171ba95742f2/go.mod h1:alvfg3YVDSc19GOEeP1iX+KiBs695+tHuATcOGqkeXA=
 github.com/appconf/log v0.0.0-20200607142500-ab2ebbe69bf3/go.mod h1:E2UFQ+LU+QkCIfblDlhEYoiLb1L6L810PELUIVQpNd8=
@@ -6,9 +8,13 @@ github.com/appconf/log v0.0.0-20200607181622-16bab1afd59f/go.mod h1:fy8oJEMbjqBM
 github.com/appconf/storage v0.0.0-20200607181058-28900ab6bc5f h1:pGjtUexUpuFeG5ZXP1xysOf39Fk5tZgLQRtTQKIDeHg=
 github.com/appconf/storage v0.0.0-20200607181058-28900ab6bc5f/go.mod h1:bKCeH7hh7AnD4a4EgduojFHTSLfXE43keMsmLPNd35Q=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
+github.com/go-redis/redis v6.15.8+incompatible h1:BKZuG6mCnRj5AOaWJXoCgf6rqTYnYJLe4en2hxT7r9o=
+github.com/go-redis/redis v6.15.8+incompatible/go.mod h1:NAIEuMOZ/fxfXJIrKDQDz8wamY7mA7PouImQ2Jvg6kA=
 github.com/golang/protobuf v1.3.1/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5yJMmIC1U=
 github.com/konsorten/go-windows-terminal-sequences v1.0.3 h1:CE8S1cTafDpPvMhIxNJKvHsGVBgn1xWYf1NbHQhywc8=
 github.com/konsorten/go-windows-terminal-sequences v1.0.3/go.mod h1:T0+1ngSBFLxvqU3pZ+m/2kptfBszLMUkC4ZK/EgS/cQ=
+github.com/mitchellh/mapstructure v1.3.2 h1:mRS76wmkOn3KkKAyXDu42V+6ebnXWIztFSYGN7GeoRg=
+github.com/mitchellh/mapstructure v1.3.2/go.mod h1:bFUtVrKA4DC2yAKiSyO/QUcy7e+RRV2QTWOzhPopBRo=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/sirupsen/logrus v1.6.0 h1:UBcNElsrwanuuMsnGSlYmtmgbb23qDR5dG+6X6Oo89I=
 github.com/sirupsen/logrus v1.6.0/go.mod h1:7uNnSEd1DgxDLC74fIahvMZmmYsHGZGEOFrfsX/uA88=
